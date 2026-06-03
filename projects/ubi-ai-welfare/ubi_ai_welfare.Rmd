@@ -1,0 +1,252 @@
+---
+title: "Universal Basic Income and Social Welfare Under AI-Driven Labor Market Scenarios"
+subtitle: "A U.S. Microsimulation with Evidence-Calibrated AI and UBI Assumptions"
+author: "UBI-AI Welfare Project"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    fig_caption: true
+    keep_tex: true
+bibliography: references.bib
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{graphicx}
+  - \usepackage{float}
+  - \usepackage{hyperref}
+  - \usepackage{xcolor}
+  - \usepackage{enumitem}
+  - \definecolor{econblue}{HTML}{1F4E79}
+  - \hypersetup{colorlinks=true, linkcolor=econblue, urlcolor=econblue, citecolor=econblue}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  fig.width = 7,
+  fig.height = 4.2,
+  fig.align = "center",
+  out.width = "100%"
+)
+
+find_project_root <- function() {
+  env <- Sys.getenv("UBI_AI_ROOT", unset = "")
+  if (nzchar(env) && file.exists(file.path(env, "scenarios.yml"))) return(normalizePath(env))
+  for (d in c(".", "..", normalizePath(".."))) {
+    if (file.exists(file.path(d, "scenarios.yml"))) return(normalizePath(d))
+  }
+  stop("Cannot find scenarios.yml. Knit from the project root or set UBI_AI_ROOT.")
+}
+root <- find_project_root()
+setwd(root)
+Sys.setenv(UBI_AI_ROOT = root)
+
+source(file.path(root, "R/load_data.R"))
+source(file.path(root, "R/welfare.R"))
+source(file.path(root, "R/methods_did.R"))
+source(file.path(root, "R/methods_ml.R"))
+source(file.path(root, "R/plot_results.R"))
+source(file.path(root, "R/theme_econ.R"))
+
+if (!file.exists(file.path(root, "data/synthetic_households.rds"))) {
+  source(file.path(root, "R/build_data.R"))
+}
+
+config <- load_config()
+data <- load_household_data()
+results <- run_scenario_grid(config = config, data = data)
+sensitivity <- run_sensitivity_grid(config = config, data = data)
+did <- run_did_analysis()
+sc <- run_synthetic_control()
+ml <- run_ml_welfare_prediction(data, 1000, "misaligned_automation", config)
+
+dir.create(file.path(root, "output/figures"), recursive = TRUE, showWarnings = FALSE)
+best_misaligned <- results |> dplyr::filter(
+  ai_scenario == "misaligned_automation", funding == "deficit_financed", ubi_monthly == 1000
+)
+```
+
+\vspace{-0.5em}
+
+**Executive summary.** This policy brief estimates how Universal Basic Income (UBI) affects social welfare under three AI labor-market scenarios for the United States. Using a transparent household microsimulation calibrated to IMF, OpenAI/UPenn, and RCT evidence, we find that **UBI welfare gains are largest when AI threatens job security** (misaligned automation). At \$1,000/month deficit-financed UBI under that scenario, the simulated poverty rate falls to **`r round(best_misaligned$poverty_rate * 100, 1)`%** with a **`r sprintf("%+.2f", best_misaligned$welfare_change_pct)`%** change in aggregate social welfare. Gains concentrate in lower income deciles, but net fiscal costs rise sharply at higher benefit levels.
+
+\vspace{0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{0.5em}
+
+# Problem and Policy Question
+
+Artificial intelligence may complement or substitute for human labor. Universal Basic Income has been proposed as an earnings buffer during technological transition. **This report asks:** *How much social welfare does UBI add, and how does that depend on whether AI augments or displaces workers?*
+
+We evaluate three baseline paths:
+
+1. **Historical innovation** -- disruption with reallocation and productivity (web / industrial-revolution analogy)
+2. **Aligned augmentation** -- AI complements workers; low displacement
+3. **Misaligned automation** -- AI substitutes workers; high displacement and earnings volatility
+
+UBI is modeled as \$250--\$1,500 per adult per month with deficit, flat-tax, and progressive-tax funding.
+
+# Evidence Base
+
+## AI and employment
+
+| Source | Key estimate |
+|--------|--------------|
+| IMF [@imf2024] | ~40% global employment exposed; ~60% in advanced economies |
+| Eloundou et al. [@eloundou2023] | 80% of U.S. workers have >=10% of tasks LLM-exposed |
+| Goldman Sachs [@goldman2023] | ~6-7% worker displacement in broad adoption case |
+| Budget Lab [@budgetlab2025] | Limited aggregate displacement through 2024-25 |
+
+## UBI and cash transfers
+
+| Study | Finding |
+|-------|---------|
+| OpenResearch [@vivalt2024] | \$1,000/mo: -2 to -4 pp labor participation; higher income net of transfers |
+| Stockton SEED [@stockton2023] | \$500/mo: improved stability; no strong labor harm |
+| Alaska PFD [@jones2022] | No aggregate employment effect; +1.8 pp part-time work |
+
+# Data and Scenarios
+
+```{r scenario-table}
+scenario_df <- data.frame(
+  Scenario = vapply(config$ai_scenarios, `[[`, "", "label"),
+  `Displacement rate` = vapply(config$ai_scenarios, `[[`, 0, "displacement_rate"),
+  `Augmentation share` = vapply(config$ai_scenarios, `[[`, 0, "augmentation_rate"),
+  `Productivity gain` = vapply(config$ai_scenarios, `[[`, 0, "productivity_gain"),
+  `Shock intensity` = vapply(config$ai_scenarios, `[[`, 0, "ai_job_security_shock"),
+  check.names = FALSE
+)
+knitr::kable(scenario_df, digits = 3, booktabs = TRUE,
+  caption = "AI scenario calibration (see scenarios.yml for sources).")
+```
+
+Our baseline uses **`r nrow(data)`** synthetic U.S. households mapped to occupation-group AI exposure [@eloundou2023; @felten2021]. CPS ASEC microdata can replace this when Census API access is available.
+
+# Methods
+
+For each household we: (1) apply an AI income shock by occupation exposure; (2) add UBI transfers; (3) scale labor supply using OpenResearch elasticities [@vivalt2024]; (4) apply financing rules; (5) compute CRRA utility ($\rho = 2$) and consumption-equivalent variation [@iza2023].
+
+**Quasi-experimental templates** (Economics 50 / [@chetty2019]): DiD/event study around ChatGPT (Nov 2022), Alaska-style synthetic control [@jones2022], and ML prediction of household-level welfare gains. These are **illustrative templates**, not causal claims.
+
+# Results
+
+## UBI reduces poverty across all AI scenarios
+
+```{r results-table}
+results |>
+  dplyr::filter(funding == "deficit_financed") |>
+  dplyr::select(ai_scenario_label, ubi_monthly, poverty_rate, gini, welfare_change_pct, net_fiscal_cost) |>
+  dplyr::mutate(
+    poverty_rate = round(poverty_rate * 100, 1),
+    gini = round(gini, 3),
+    welfare_change_pct = round(welfare_change_pct, 2),
+    net_fiscal_cost = round(net_fiscal_cost / 1e9, 2)
+  ) |>
+  knitr::kable(
+    col.names = c("AI scenario", "UBI $/mo", "Poverty %", "Gini", "Welfare chg %", "Fiscal cost (B$)"),
+    booktabs = TRUE,
+    caption = "Deficit-financed UBI: selected outcomes."
+  )
+```
+
+## Welfare gains rise with UBI generosity and AI disruption
+
+```{r heatmap, fig.cap="Social welfare change (\\\\%) is highest under misaligned automation and larger UBI amounts. Deficit-financed policy; U.S. microsimulation."}
+results |>
+  dplyr::filter(funding == "deficit_financed") |>
+  ggplot2::ggplot(ggplot2::aes(factor(ubi_monthly), ai_scenario_label, fill = welfare_change_pct)) +
+  ggplot2::geom_tile(color = "white", linewidth = 0.4) +
+  scale_econ_diverging("Welfare change (%)") +
+  ggplot2::labs(
+    title = "Higher UBI raises welfare most when AI threatens job security",
+    subtitle = "Social welfare change by scenario and benefit level",
+    x = "UBI per adult ($/month)", y = NULL,
+    caption = "Source: U.S. household microsimulation."
+  ) +
+  theme_econ()
+```
+
+## Gains concentrate among lower-income households
+
+```{r decile, fig.cap="Under \\\\$1,000/month UBI and misaligned automation, lower deciles see the largest consumption gains."}
+shocked <- apply_ai_shock(data, "misaligned_automation", config = config)
+sim <- simulate_ubi(shocked, 1000, config = config)
+dec <- welfare_by_decile(sim, config = config)
+base <- welfare_by_decile(shocked |> dplyr::mutate(net_resources = ai_shocked_income), config = config)
+plot_df <- dec |>
+  dplyr::left_join(base |> dplyr::select(decile, base = mean_consumption), by = "decile") |>
+  dplyr::mutate(gain = mean_consumption - base)
+cols <- econ_colors()
+ggplot2::ggplot(plot_df, ggplot2::aes(factor(decile), gain)) +
+  ggplot2::geom_col(fill = cols$primary, width = 0.7) +
+  ggplot2::scale_y_continuous(labels = scales::label_dollar()) +
+  ggplot2::labs(
+    title = "UBI gains concentrate in lower income deciles",
+    x = "Pre-policy income decile (1 = lowest)", y = "Annual consumption gain",
+    caption = "Misaligned automation; $1,000/mo UBI."
+  ) +
+  theme_econ()
+```
+
+## Continuous AI shock sensitivity
+
+```{r sensitivity, fig.cap="Welfare gains increase with both AI job-security shock intensity and UBI generosity."}
+ggplot2::ggplot(sensitivity, ggplot2::aes(factor(ubi_monthly), ai_job_security_shock, fill = welfare_change_pct)) +
+  ggplot2::geom_tile(color = "white", linewidth = 0.4) +
+  scale_econ_diverging("Welfare change (%)") +
+  ggplot2::labs(
+    title = "Higher AI disruption amplifies the value of UBI",
+    x = "UBI per adult ($/month)", y = "AI job-security shock (0-1)",
+    caption = "Misaligned automation scenario; deficit-financed."
+  ) +
+  theme_econ()
+```
+
+## Quasi-experimental templates
+
+**Difference-in-differences:** DiD treated coefficient = **`r round(did$did_estimate, 4)`** (template panel; no clear break detected).
+
+```{r did-plot, fig.cap="Event-study template: high vs. low AI exposure after ChatGPT release.", eval=!is.null(did$event_study)}
+if (!is.null(did$event_study)) {
+  es <- did$event_study[grepl("rel_period", did$event_study$term), , drop = FALSE]
+  if (nrow(es) > 0) {
+    es$period <- as.numeric(gsub(".*::(-?[0-9]+).*", "\\1", es$term))
+    cols <- econ_colors()
+    ggplot2::ggplot(es, ggplot2::aes(period, estimate)) +
+      ggplot2::geom_hline(yintercept = 0, linetype = "dashed", color = cols$mid) +
+      ggplot2::geom_vline(xintercept = -0.5, linetype = "dotted", color = cols$negative) +
+      ggplot2::geom_point(color = cols$primary) +
+      ggplot2::geom_errorbar(ggplot2::aes(ymin = conf.low, ymax = conf.high), width = 0.2, color = cols$primary) +
+      ggplot2::labs(title = "No clear post-ChatGPT break in high-exposure occupations", x = "Months from Nov 2022", y = "Coefficient") +
+      theme_econ()
+  }
+}
+```
+
+**Synthetic control:** Alaska template ATT = **`r round(sc$att, 4)`**, consistent with no aggregate employment decline [@jones2022].
+
+# Policy Implications
+
+- **If AI augments workers:** UBI still reduces poverty, but the welfare case for large transfers is weaker because baseline disruption is limited.
+- **If AI displaces workers:** UBI provides the strongest buffer, especially for high-exposure, lower-income households, but fiscal costs are highest.
+- **Labor supply matters:** Scaling OpenResearch elasticities [@vivalt2024], earned income falls modestly; progressive financing further reduces net consumption gains.
+
+# Limitations
+
+- Synthetic household data (CPS ASEC pipeline available via `cpsR`)
+- AI parameters calibrated to published ranges, not dynamically forecast
+- Quasi-experimental modules are templates requiring validated data
+- CRRA $\rho = 2$ is illustrative; robustness to $\rho \in [1,3]$ recommended
+
+# Conclusion
+
+UBI's social welfare value depends critically on how AI affects job security. Under misaligned automation, unconditional transfers provide the strongest distributional buffer. Policy design must weigh poverty reduction and welfare gains against fiscal cost and documented labor supply responses.
+
+**Interactive dashboard:** `http://127.0.0.1:3838` (run `shiny::runApp(".")`).
+
+# References

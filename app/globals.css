@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --color-background: #fafafa;
+  --color-foreground: #171717;
+  --color-muted: #737373;
+  --color-accent: #2563eb;
+  --color-card: #ffffff;
+  --color-border: #e5e5e5;
+}
+
+@media (prefers-color-scheme: dark) {
+  @theme {
+    --color-background: #0a0a0a;
+    --color-foreground: #ededed;
+    --color-muted: #a3a3a3;
+    --color-accent: #60a5fa;
+    --color-card: #171717;
+    --color-border: #262626;
+  }
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+.prose {
+  max-width: 65ch;
+  line-height: 1.75;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+
+.prose h1 {
+  font-size: 2rem;
+}
+
+.prose h2 {
+  font-size: 1.5rem;
+}
+
+.prose p,
+.prose ul,
+.prose ol {
+  margin-bottom: 1.25em;
+  color: color-mix(in oklab, var(--color-foreground) 88%, transparent);
+}
+
+.prose a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: color-mix(in oklab, var(--color-border) 50%, transparent);
+  padding: 0.15em 0.4em;
+  border-radius: 0.25rem;
+}

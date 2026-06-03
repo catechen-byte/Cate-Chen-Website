@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+
+# Env
+.env
+.env*.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# OS
+.DS_Store
+
+# R project (projects/ubi-ai-welfare)
+projects/**/.Rproj.user
+projects/**/.Rhistory
+projects/**/.RData
+projects/**/.Ruserdata
+projects/**/renv/library/
+projects/**/renv/staging/
+projects/**/renv/local/
+projects/**/renv/cellar/
+projects/**/renv/lock/
+projects/**/renv/sandbox/
+projects/**/renv/python/
+projects/**/data/*.rds
+projects/**/output/
+projects/**/.venv/
+
+# Keep sample CSVs in R project
+!projects/**/data/occupation_ai_exposure.csv
+!projects/**/data/synthetic_households.csv
+
+# Vercel
+.vercel

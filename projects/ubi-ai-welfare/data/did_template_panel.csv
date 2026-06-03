@@ -1,0 +1,1057 @@
+occupation_group,month,occupation_label,ai_exposure,automation_prone,augmentation_prone,employment_share,source_note,post_chatgpt,high_exposure,treated,base_employment,employment_rate,log_wage
+management,2021-01-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6288382145238818,10.79772605318475
+business_financial,2021-01-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6180913595197135,10.957536296916071
+computer_math,2021-01-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6523851606804039,10.762782250711512
+architecture_engineering,2021-01-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6286408790492376,10.78103194975425
+life_physical_social,2021-01-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6796836715497584,10.75524790866354
+community_social,2021-01-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6807720081975068,10.80595027898542
+legal,2021-01-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.5998501239694354,10.882990373920908
+education,2021-01-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6978640807964773,10.69122286736576
+arts_media,2021-01-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6318708566076056,10.913618702984419
+healthcare_practitioners,2021-01-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.7162920104982262,10.826680064020177
+healthcare_support,2021-01-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6185695163283375,10.83581817334477
+protective_service,2021-01-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.7366024628940849,10.850831115676776
+food_prep,2021-01-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6950502499244372,10.776302049021746
+building_grounds,2021-01-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6696331802023439,10.800517340604882
+personal_care,2021-01-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6829708410653207,10.784913232744492
+sales,2021-01-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.605027605600136,10.772102248144432
+office_admin,2021-01-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.5750771696255995,10.764578704400368
+farming,2021-01-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6737185860082879,10.757556388834397
+construction,2021-01-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.677994459487635,10.746429896282256
+installation,2021-01-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6890338268737863,10.805397393709372
+production,2021-01-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6039576026823646,10.796814372749802
+transportation,2021-01-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6527042354950827,10.787499304957635
+management,2021-02-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6447546798985685,10.826109670520436
+business_financial,2021-02-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6716048514501972,10.736125636914762
+computer_math,2021-02-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6593049422720743,10.834977037635822
+architecture_engineering,2021-02-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6412025627513098,10.910601628208013
+life_physical_social,2021-02-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6391698251428646,10.733970623826028
+community_social,2021-02-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6659494733465954,10.806528767067745
+legal,2021-02-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.5919199955400973,10.80496281344086
+education,2021-02-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6477844352845952,10.743370485376841
+arts_media,2021-02-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6589803694706962,10.822074018448088
+healthcare_practitioners,2021-02-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6864312086944793,10.79349008560824
+healthcare_support,2021-02-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.676431692447165,10.78820137990342
+protective_service,2021-02-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.7018104891392606,10.778622459519994
+food_prep,2021-02-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.620272213854697,10.769683689577754
+building_grounds,2021-02-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6104494758782909,10.819512477982443
+personal_care,2021-02-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6827187125488826,10.707123469460344
+sales,2021-02-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6286252871357021,10.845020514241213
+office_admin,2021-02-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.5801870975302121,10.78832565180742
+farming,2021-02-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6565087128033339,10.699897591282758
+construction,2021-02-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6450766472916054,10.636817067702875
+installation,2021-02-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6682991498930768,10.768040834886994
+production,2021-02-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6045079635233516,10.788977537311657
+transportation,2021-02-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6427997542532764,10.70148866934454
+management,2021-03-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6651477718727109,10.756977189763756
+business_financial,2021-03-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6652140630694032,10.86533740681626
+computer_math,2021-03-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6499583897375082,10.800672731256526
+architecture_engineering,2021-03-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6207665889879915,10.684192532577155
+life_physical_social,2021-03-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6581072293168083,10.799238498676946
+community_social,2021-03-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6499279245494723,10.77333410618544
+legal,2021-03-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6205651046011519,10.824122506443745
+education,2021-03-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6585327909069705,10.674048823220406
+arts_media,2021-03-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6275962346383751,10.833285347631566
+healthcare_practitioners,2021-03-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6802332939487524,10.802031892794755
+healthcare_support,2021-03-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6369623126953216,10.79332297406607
+protective_service,2021-03-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6821455387947907,10.804934556530938
+food_prep,2021-03-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6474642110926183,10.711150804986577
+building_grounds,2021-03-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6640968717470291,10.764962594770338
+personal_care,2021-03-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6498683958207219,10.751933956309092
+sales,2021-03-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6466357702968465,10.73838789904081
+office_admin,2021-03-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.5968307270120315,10.826451646323312
+farming,2021-03-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6712169179706261,10.735317998656319
+construction,2021-03-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6733895716614422,10.777171842126648
+installation,2021-03-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6594393445384,10.787241065939346
+production,2021-03-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.5735938455213347,10.74376969067717
+transportation,2021-03-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6055111292492324,10.642210145064132
+management,2021-04-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6298810898331697,10.839377919350415
+business_financial,2021-04-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6512460144783847,10.851400749179552
+computer_math,2021-04-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6426634734885104,10.809035835341804
+architecture_engineering,2021-04-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6607320972417697,10.809314858576993
+life_physical_social,2021-04-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6791455943583656,10.76723662122275
+community_social,2021-04-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.652707678577717,10.843003822718336
+legal,2021-04-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6259370967703504,10.796637310223003
+education,2021-04-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6507352415354906,10.718794073981897
+arts_media,2021-04-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6682134016990106,10.789861426255317
+healthcare_practitioners,2021-04-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6845209520725064,10.719029941562571
+healthcare_support,2021-04-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6474851363195213,10.825317850060257
+protective_service,2021-04-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6591485041536898,10.658641042021822
+food_prep,2021-04-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6559981534669292,10.776367722799202
+building_grounds,2021-04-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6666469948167284,10.784008115336963
+personal_care,2021-04-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6725177630738931,10.699316943841009
+sales,2021-04-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6095974194839391,10.758272465330988
+office_admin,2021-04-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6313201865389102,10.80426954625043
+farming,2021-04-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6513068697789709,10.682554248491671
+construction,2021-04-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6547207458370634,10.761372392391774
+installation,2021-04-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6357209044413464,10.752481691239787
+production,2021-04-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6111368666430181,10.717037852810341
+transportation,2021-04-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6502844380727109,10.822431805472483
+management,2021-05-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6353742041415326,10.990196262359312
+business_financial,2021-05-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6244842526265894,10.868749158020432
+computer_math,2021-05-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6625885410262573,10.814430344795154
+architecture_engineering,2021-05-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6568378866705555,10.803125419878949
+life_physical_social,2021-05-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.637718482978672,10.760043213747567
+community_social,2021-05-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6532938061017285,10.779289097430576
+legal,2021-05-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6040413098577833,10.870295885202372
+education,2021-05-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6720211220950058,10.827823852353438
+arts_media,2021-05-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6524361674985463,10.792635934652884
+healthcare_practitioners,2021-05-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6653539451596835,10.722032596636556
+healthcare_support,2021-05-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.702371769722278,10.721206951328481
+protective_service,2021-05-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.700885097926299,10.768719010396154
+food_prep,2021-05-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6583230880958175,10.642543124433727
+building_grounds,2021-05-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6309196464309693,10.805813916224846
+personal_care,2021-05-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6957969279150186,10.742222192681165
+sales,2021-05-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6271787660386623,10.816333010650215
+office_admin,2021-05-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.605074965947591,10.832923832266264
+farming,2021-05-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6544052158628468,10.780215037116585
+construction,2021-05-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6428190079902578,10.708655998007755
+installation,2021-05-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6982233116723572,10.796457796130712
+production,2021-05-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6374962493026113,10.849908837350707
+transportation,2021-05-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6235938095636137,10.663751899940891
+management,2021-06-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6391200275752914,10.813325243603902
+business_financial,2021-06-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6140395621818114,10.860601413895388
+computer_math,2021-06-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6723850475351311,10.87111450932201
+architecture_engineering,2021-06-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6505682698388432,10.833215954831427
+life_physical_social,2021-06-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.651545426110608,10.788487401419129
+community_social,2021-06-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.675583564213243,10.72041021587708
+legal,2021-06-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6071322696389847,10.827957819704425
+education,2021-06-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6882086093174378,10.86017775623855
+arts_media,2021-06-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6411121985871903,10.738763220893134
+healthcare_practitioners,2021-06-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.7253723695167767,10.739018896822369
+healthcare_support,2021-06-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.633604734051861,10.737859544819935
+protective_service,2021-06-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6684014593026456,10.811008609617275
+food_prep,2021-06-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6325092861148349,10.755195858510811
+building_grounds,2021-06-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6371035179909135,10.703591955560999
+personal_care,2021-06-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6758215202939544,10.719814204252394
+sales,2021-06-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.63631027011158,10.771018046158707
+office_admin,2021-06-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.5723892991590468,10.852131291866774
+farming,2021-06-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6299829761504719,10.73525407537069
+construction,2021-06-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6606445567027909,10.774619394496517
+installation,2021-06-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6604537698739741,10.767361311551381
+production,2021-06-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6025290151191247,10.77732881803
+transportation,2021-06-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.646295762936809,10.767313600518836
+management,2021-07-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.630373181178935,10.867953695227994
+business_financial,2021-07-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6221319288674845,10.802650046055197
+computer_math,2021-07-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6264411609522671,10.83035417011684
+architecture_engineering,2021-07-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6147140920963269,10.964348571396961
+life_physical_social,2021-07-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6252713632114681,10.743386241389798
+community_social,2021-07-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6339793823460819,10.745742763065955
+legal,2021-07-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.5633404201848621,10.721054350761342
+education,2021-07-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.674422738843997,10.776455082714476
+arts_media,2021-07-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6140975060039765,10.842342121587162
+healthcare_practitioners,2021-07-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.641781566093495,10.771125544753023
+healthcare_support,2021-07-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6775505282169709,10.810888129104214
+protective_service,2021-07-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6492323284842527,10.757261482541537
+food_prep,2021-07-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6763840342285189,10.814519408679525
+building_grounds,2021-07-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6656708121112954,10.770113706908909
+personal_care,2021-07-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6440148641296299,10.745780538646653
+sales,2021-07-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.581839287217477,10.795406399466131
+office_admin,2021-07-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6136470844130675,10.893986585956714
+farming,2021-07-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6619561223361132,10.778479733531318
+construction,2021-07-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.662770783242795,10.770306854892482
+installation,2021-07-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6407514134111001,10.716502639576376
+production,2021-07-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.5910761849283112,10.780857135128262
+transportation,2021-07-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6262528316256983,10.74613729433302
+management,2021-08-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6401968417450351,10.787893903552883
+business_financial,2021-08-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6221841747850382,10.840125417627574
+computer_math,2021-08-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6450870692561224,10.877107052941776
+architecture_engineering,2021-08-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6324505889797752,10.866516966175283
+life_physical_social,2021-08-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6768504602669487,10.78349681444053
+community_social,2021-08-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6888986969165729,10.756521355887669
+legal,2021-08-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6041681660318633,10.786061916438863
+education,2021-08-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.662936616410656,10.798148274132329
+arts_media,2021-08-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6420642558809214,10.820135012537088
+healthcare_practitioners,2021-08-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.636638837830985,10.742703330186934
+healthcare_support,2021-08-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.692651677373177,10.727107991509993
+protective_service,2021-08-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6815362644697706,10.711939395247084
+food_prep,2021-08-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6933678315402246,10.687007495162911
+building_grounds,2021-08-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6357308920323086,10.722619728119152
+personal_care,2021-08-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6668137549391726,10.743356643555805
+sales,2021-08-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.5839931310903228,10.797053209501259
+office_admin,2021-08-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6077599969317676,10.845561264626662
+farming,2021-08-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6744704614056053,10.674951662042224
+construction,2021-08-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6496741519104727,10.732680828748773
+installation,2021-08-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6412471633295989,10.720932940882449
+production,2021-08-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6475642159580315,10.764207749484207
+transportation,2021-08-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6192550826524196,10.665225524655657
+management,2021-09-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6315413355554703,10.822394701927676
+business_financial,2021-09-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.5780314113677052,10.850285869800695
+computer_math,2021-09-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6498808376842227,10.833322913067832
+architecture_engineering,2021-09-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6771252364185896,10.851143957908263
+life_physical_social,2021-09-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6438992924588741,10.772133646738686
+community_social,2021-09-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6881428745767054,10.816079441080248
+legal,2021-09-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6084978561985463,10.837749940619966
+education,2021-09-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6922498781228132,10.880106726682481
+arts_media,2021-09-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6515898656276456,10.884161363242493
+healthcare_practitioners,2021-09-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6757100019693457,10.73838676183737
+healthcare_support,2021-09-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6402534968187049,10.836147884231952
+protective_service,2021-09-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6775961070929531,10.741977625388772
+food_prep,2021-09-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6318832418355853,10.771450006076794
+building_grounds,2021-09-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6236073046031081,10.704451750952025
+personal_care,2021-09-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6529595075672858,10.68330877856567
+sales,2021-09-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6148011488725875,10.756861897767093
+office_admin,2021-09-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.5770452366101053,10.82699242040411
+farming,2021-09-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6833097085413496,10.725245293226248
+construction,2021-09-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6672262098585718,10.727146571154494
+installation,2021-09-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.694275206963347,10.810388916432732
+production,2021-09-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6002526658269257,10.71766357502699
+transportation,2021-09-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6319071320470183,10.687777788006054
+management,2021-10-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6552476781708185,10.788859290758715
+business_financial,2021-10-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6397658974388887,10.848628858901984
+computer_math,2021-10-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6484748901085612,10.793397371802168
+architecture_engineering,2021-10-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6831128573336621,10.80497183143271
+life_physical_social,2021-10-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6805480165835636,10.810071584746115
+community_social,2021-10-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.698999125818432,10.725689271506466
+legal,2021-10-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.5948941783420851,10.929204655789398
+education,2021-10-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6408112600478759,10.832735020470173
+arts_media,2021-10-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.657115853474737,10.826974449600646
+healthcare_practitioners,2021-10-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6673689505079358,10.719812071398579
+healthcare_support,2021-10-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6387696315789924,10.752933284119381
+protective_service,2021-10-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6635358546170713,10.770953940414717
+food_prep,2021-10-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6572948261110102,10.789107061550629
+building_grounds,2021-10-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6276904229143468,10.677486862102505
+personal_care,2021-10-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6750375758457625,10.757113530075014
+sales,2021-10-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.649154628651373,10.766393994467741
+office_admin,2021-10-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6178501018537906,10.851358613327333
+farming,2021-10-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6618638859788274,10.696809242548506
+construction,2021-10-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6462513582550058,10.859414129011412
+installation,2021-10-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6802759506356458,10.712571248951267
+production,2021-10-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.5934654871652746,10.782464567896968
+transportation,2021-10-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6093493269252692,10.755140656740494
+management,2021-11-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6508853981691108,10.85906143754402
+business_financial,2021-11-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.5808745992432339,10.82479580391557
+computer_math,2021-11-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6228288683432993,10.91630645644503
+architecture_engineering,2021-11-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6327027299551234,10.81139966570185
+life_physical_social,2021-11-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.5952225578586741,10.864611032096409
+community_social,2021-11-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6910233701944849,10.81895498716764
+legal,2021-11-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6303809481478406,10.836797832387917
+education,2021-11-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6578274852297042,10.764163404571965
+arts_media,2021-11-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6546987717771715,10.824743510731397
+healthcare_practitioners,2021-11-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6657387148658925,10.681909286234887
+healthcare_support,2021-11-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6649726747296003,10.731127230866258
+protective_service,2021-11-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6626498283089506,10.778012270519094
+food_prep,2021-11-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6426822247398707,10.747519968264312
+building_grounds,2021-11-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6540623473231131,10.644480158226699
+personal_care,2021-11-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6841969701016842,10.738227504180086
+sales,2021-11-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6536090283854706,10.79192538992141
+office_admin,2021-11-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6004900449139686,10.79862114163187
+farming,2021-11-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6520392258398927,10.730499888291755
+construction,2021-11-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6276960303681333,10.761511993154764
+installation,2021-11-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6364431077551558,10.707073110337681
+production,2021-11-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6074100651622105,10.775675811324469
+transportation,2021-11-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6106705810663693,10.716223482465333
+management,2021-12-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6470218332874819,10.858077725687018
+business_financial,2021-12-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6089757953832948,10.84753551549279
+computer_math,2021-12-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6688552840715871,10.848738531740933
+architecture_engineering,2021-12-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.626590379354363,10.761989417880294
+life_physical_social,2021-12-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.635934773997369,10.791141033329055
+community_social,2021-12-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6655454078749731,10.792535187426846
+legal,2021-12-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6455721986182376,10.84221333073929
+education,2021-12-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6023281680804278,10.785452563192623
+arts_media,2021-12-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6317406070161966,10.785230479123237
+healthcare_practitioners,2021-12-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6818620972626391,10.791072009277105
+healthcare_support,2021-12-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6652380134250648,10.730215650642522
+protective_service,2021-12-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6681594096413205,10.712809945274868
+food_prep,2021-12-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6354250366203169,10.816195069941786
+building_grounds,2021-12-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6647053762364918,10.702924885013351
+personal_care,2021-12-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.632756936295223,10.78613877084012
+sales,2021-12-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6156374368606687,10.819276184118339
+office_admin,2021-12-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.608882496223716,10.859405897760187
+farming,2021-12-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.613803409015539,10.752950856066573
+construction,2021-12-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6606544812641489,10.696113790989562
+installation,2021-12-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6380278705664033,10.752082248755201
+production,2021-12-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6134123248131966,10.789143760171951
+transportation,2021-12-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6213245086841229,10.699876668457957
+management,2022-01-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6450134730646552,10.820008627018794
+business_financial,2022-01-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6237395414512156,10.760518784477041
+computer_math,2022-01-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6513249431485699,10.776574315281142
+architecture_engineering,2022-01-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6596688499029446,10.776205117770084
+life_physical_social,2022-01-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6661824902299102,10.815315882464807
+community_social,2022-01-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6592705587349592,10.76714214632127
+legal,2022-01-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.5892540661931829,10.821112785197124
+education,2022-01-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6631943690738006,10.842290671011055
+arts_media,2022-01-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6024369130800225,10.835259112439113
+healthcare_practitioners,2022-01-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6500834394174083,10.68797112684804
+healthcare_support,2022-01-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6721462036242537,10.788709944103841
+protective_service,2022-01-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6853960524178926,10.799284201592535
+food_prep,2022-01-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.651089877454495,10.79437192588899
+building_grounds,2022-01-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6562112970821853,10.738215391067724
+personal_care,2022-01-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.669654053795775,10.757855557282328
+sales,2022-01-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6289686910480661,10.737050884377568
+office_admin,2022-01-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.613519357694998,10.690484354021232
+farming,2022-01-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6498152950753019,10.678156869484747
+construction,2022-01-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6485063896581328,10.797975358633716
+installation,2022-01-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6462797866008799,10.764173813119857
+production,2022-01-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6403630646601207,10.826040788965424
+transportation,2022-01-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6335746941748817,10.718529786781883
+management,2022-02-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6570345870436073,10.79329352072855
+business_financial,2022-02-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6422993199879863,10.839852259442484
+computer_math,2022-02-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6650405928003962,10.945493616608847
+architecture_engineering,2022-02-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.650333122071258,10.762764006259648
+life_physical_social,2022-02-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6714312686479809,10.73039185975621
+community_social,2022-02-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6745764924545176,10.904800129163517
+legal,2022-02-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6334664628304234,10.767296165210022
+education,2022-02-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6616422567677688,10.788893344540924
+arts_media,2022-02-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6205316827519913,10.809257034942275
+healthcare_practitioners,2022-02-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6987550288212634,10.808288795880461
+healthcare_support,2022-02-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6872726373116081,10.796770109974394
+protective_service,2022-02-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6668293408114377,10.735121802588425
+food_prep,2022-02-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6775125015093314,10.741560438162237
+building_grounds,2022-02-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6595998875518614,10.745666692891822
+personal_care,2022-02-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6667009430901892,10.77980009348226
+sales,2022-02-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6046144317536295,10.847522597310247
+office_admin,2022-02-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6077134486627624,10.852775856180816
+farming,2022-02-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.653755739903561,10.64644726043927
+construction,2022-02-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6094727457293778,10.809254956187598
+installation,2022-02-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6871525423486543,10.803801719430032
+production,2022-02-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.621242160429565,10.763646767859864
+transportation,2022-02-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6052530230243803,10.752529056939222
+management,2022-03-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6328245536875846,10.778731095937589
+business_financial,2022-03-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6167539500791124,10.90363263909715
+computer_math,2022-03-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6536969853411864,10.868047935131367
+architecture_engineering,2022-03-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.671580199577569,10.829460758599351
+life_physical_social,2022-03-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6730864612368584,10.813458040245449
+community_social,2022-03-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6888823051533879,10.651440059833066
+legal,2022-03-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.58953912816188,10.905502850381998
+education,2022-03-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6448376719880271,10.821436421322357
+arts_media,2022-03-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6529734380617055,10.822573606261958
+healthcare_practitioners,2022-03-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6864792969971493,10.772295416138006
+healthcare_support,2022-03-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6701111254540582,10.837306680493718
+protective_service,2022-03-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.677476302165653,10.788606417704491
+food_prep,2022-03-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6687802347031169,10.780514137490083
+building_grounds,2022-03-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6473320012133317,10.733758919170622
+personal_care,2022-03-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6684702694337643,10.700220135034257
+sales,2022-03-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6422373461875371,10.740865439845285
+office_admin,2022-03-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6243155020689737,10.858137437408924
+farming,2022-03-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6679100132266504,10.7687105288997
+construction,2022-03-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6529236592446432,10.798384640048617
+installation,2022-03-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.672068051557807,10.741729142219372
+production,2022-03-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.5983022710144981,10.829324634500928
+transportation,2022-03-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6189403534935038,10.755234064805656
+management,2022-04-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6316617925712016,10.830656669089976
+business_financial,2022-04-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6304896248253306,10.898756703033117
+computer_math,2022-04-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6580020303434005,10.823299682517469
+architecture_engineering,2022-04-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6316416500942117,10.746203533860099
+life_physical_social,2022-04-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6756318200059075,10.811185450857243
+community_social,2022-04-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6416084278040998,10.726928391794333
+legal,2022-04-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6487812741653851,10.823180674499167
+education,2022-04-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6663233830668969,10.790013019845093
+arts_media,2022-04-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6264280990357717,10.876063411671275
+healthcare_practitioners,2022-04-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.7066942074824935,10.70334181051045
+healthcare_support,2022-04-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6712028518878034,10.741192354823728
+protective_service,2022-04-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6569928400281705,10.757621170062514
+food_prep,2022-04-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6281342860420039,10.750996033449681
+building_grounds,2022-04-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6366293901338228,10.797524970292832
+personal_care,2022-04-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6719200412574486,10.810720391144029
+sales,2022-04-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6423256045081709,10.744183260912006
+office_admin,2022-04-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.5829739585915207,10.863861506737672
+farming,2022-04-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.622564325020398,10.806970075429307
+construction,2022-04-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6729216045307173,10.739498827826116
+installation,2022-04-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.654253052060763,10.779526871146972
+production,2022-04-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6208788945067706,10.74743865444398
+transportation,2022-04-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6514832745990424,10.71451467297378
+management,2022-05-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6471973526039521,10.773480945328535
+business_financial,2022-05-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6444341682242295,10.807451760514308
+computer_math,2022-05-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6589367232698724,10.830755456894257
+architecture_engineering,2022-05-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6761668273308526,10.908111204556922
+life_physical_social,2022-05-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6582053015730482,10.74891554584998
+community_social,2022-05-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6671540801834058,10.765275802425688
+legal,2022-05-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.614943409326532,10.909678994811387
+education,2022-05-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.698508757015605,10.818041562164368
+arts_media,2022-05-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6073714296513333,10.861178221914463
+healthcare_practitioners,2022-05-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6812961233695021,10.80896013816735
+healthcare_support,2022-05-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6997673709326981,10.705676592746144
+protective_service,2022-05-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6453235743232191,10.716761750466018
+food_prep,2022-05-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6762002225044533,10.71680888657439
+building_grounds,2022-05-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6192377271652287,10.74346779914126
+personal_care,2022-05-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.686492737163665,10.703875579288992
+sales,2022-05-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.654620430816061,10.712192678211386
+office_admin,2022-05-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6299401379190346,10.76092966300815
+farming,2022-05-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.666738504454453,10.5842997249372
+construction,2022-05-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6306170199900635,10.763467934519454
+installation,2022-05-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6220423173523321,10.78871161214739
+production,2022-05-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6309469837953289,10.795582967045075
+transportation,2022-05-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6074995641762799,10.743461388170957
+management,2022-06-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.5858139660927785,10.797662262455152
+business_financial,2022-06-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.624760851727369,10.76895317922564
+computer_math,2022-06-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6824454312405943,10.792461523503722
+architecture_engineering,2022-06-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6514797035263471,10.766288331383324
+life_physical_social,2022-06-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6034268326434894,10.815191101463123
+community_social,2022-06-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.7222284163825637,10.803594369947529
+legal,2022-06-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6119421111781378,10.848003676621376
+education,2022-06-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6489385290354337,10.766348290291807
+arts_media,2022-06-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6304276656636718,10.775708335654791
+healthcare_practitioners,2022-06-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6723575500751788,10.79017629191846
+healthcare_support,2022-06-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6546064193632221,10.749111539219196
+protective_service,2022-06-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6645760571801578,10.685865608038368
+food_prep,2022-06-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6529989593844067,10.693567238021517
+building_grounds,2022-06-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6143602834562801,10.713050834201685
+personal_care,2022-06-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6385299607344675,10.76425717260061
+sales,2022-06-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6227742014062072,10.826507266073385
+office_admin,2022-06-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.5911670726508239,10.734480461346632
+farming,2022-06-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6771056590641796,10.780612570850458
+construction,2022-06-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6756977694193225,10.816714597721749
+installation,2022-06-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.67253013808966,10.756582405243481
+production,2022-06-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6163137968095217,10.720391744538128
+transportation,2022-06-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6076241735655847,10.771827836285592
+management,2022-07-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.5869162035433605,10.786879067066012
+business_financial,2022-07-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6686981691345685,10.851748018696744
+computer_math,2022-07-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6542226161120639,10.870506826542433
+architecture_engineering,2022-07-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6577126581660747,10.810787807633307
+life_physical_social,2022-07-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.663649240307452,10.760444378483868
+community_social,2022-07-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6474385034672,10.800493143122525
+legal,2022-07-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6102465227345821,10.803056650805438
+education,2022-07-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6715984625122482,10.760469476218983
+arts_media,2022-07-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6169513343812475,10.851896342147144
+healthcare_practitioners,2022-07-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6853797349965095,10.803620016772888
+healthcare_support,2022-07-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6488583189860165,10.7957731186858
+protective_service,2022-07-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6497689335313784,10.779537076315014
+food_prep,2022-07-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6560813342479689,10.76572617823575
+building_grounds,2022-07-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6446223522056798,10.769237619738165
+personal_care,2022-07-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6543812967857771,10.76303973451215
+sales,2022-07-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6403172022040432,10.833661935983006
+office_admin,2022-07-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6011503947999491,10.810028869058202
+farming,2022-07-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6479499898289086,10.741281402214916
+construction,2022-07-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6921754591529877,10.693881594695712
+installation,2022-07-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6702364445220869,10.666514859070768
+production,2022-07-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6146504353741035,10.72026635569148
+transportation,2022-07-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6281511690456522,10.697559868018052
+management,2022-08-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6157456937955528,10.87598030045412
+business_financial,2022-08-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6702031240000804,10.829627180438317
+computer_math,2022-08-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6736504460157725,10.78946790146693
+architecture_engineering,2022-08-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6560639598702896,10.804608813536174
+life_physical_social,2022-08-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.675773747984772,10.76561876422905
+community_social,2022-08-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6641122811121315,10.728575270549168
+legal,2022-08-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6020326987200407,10.79414030249965
+education,2022-08-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6395416347418025,10.764034518815654
+arts_media,2022-08-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.644224569460653,10.768359526024328
+healthcare_practitioners,2022-08-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6849416473724784,10.800263111322533
+healthcare_support,2022-08-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6656419862681321,10.817156165412225
+protective_service,2022-08-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6598483548892602,10.707506468260805
+food_prep,2022-08-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6891968023435796,10.76678629290299
+building_grounds,2022-08-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6754914477879759,10.788308585958028
+personal_care,2022-08-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.6632261648545202,10.726007692935843
+sales,2022-08-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6300753221783214,10.77377846926185
+office_admin,2022-08-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6438068478303923,10.775747125820459
+farming,2022-08-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6695675124919207,10.706973210237038
+construction,2022-08-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6621559006944291,10.765531970922712
+installation,2022-08-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6345966027431932,10.712637771318033
+production,2022-08-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6167234199107698,10.851453428157619
+transportation,2022-08-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6370087894807064,10.75190883830073
+management,2022-09-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.6681586160244589,10.8068273664826
+business_financial,2022-09-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6173202267936887,10.843910306573774
+computer_math,2022-09-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6491200600351552,10.832118811012492
+architecture_engineering,2022-09-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6534082584975527,10.820633735664607
+life_physical_social,2022-09-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.6822983923674568,10.800741637877726
+community_social,2022-09-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.654381469992153,10.696011415928577
+legal,2022-09-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6186567667101855,10.871274499874007
+education,2022-09-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6294147702840165,10.797346806454952
+arts_media,2022-09-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6209107146661195,10.801461601917707
+healthcare_practitioners,2022-09-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6701236636298687,10.715572492145421
+healthcare_support,2022-09-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6793811308683133,10.746630028967243
+protective_service,2022-09-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6784383281626981,10.859353941415472
+food_prep,2022-09-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6328739174745788,10.759453551799377
+building_grounds,2022-09-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6163813947524686,10.701773721308188
+personal_care,2022-09-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.7089074861735822,10.727464767624692
+sales,2022-09-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6239185659007147,10.89093971789559
+office_admin,2022-09-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.6317020337039472,10.832056520993902
+farming,2022-09-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6637776913228989,10.682643263465527
+construction,2022-09-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.63778109459148,10.671946158835324
+installation,2022-09-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6498475414464991,10.805636115703415
+production,2022-09-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6099945494704598,10.851586491256445
+transportation,2022-09-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6152466806016085,10.757261772630024
+management,2022-10-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,0,1,0,0.637,0.615511016571857,10.798774986136593
+business_financial,2022-10-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,0,1,0,0.6279999999999999,0.6384820020511004,10.862147763820616
+computer_math,2022-10-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,0,1,0,0.655,0.6234841624542147,10.838249354651442
+architecture_engineering,2022-10-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,0,1,0,0.6459999999999999,0.6453388101272785,10.766100114516753
+life_physical_social,2022-10-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,0,1,0,0.655,0.7089213840333674,10.760057519888939
+community_social,2022-10-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,0,0,0,0.6729999999999999,0.6942113558462908,10.791089122648572
+legal,2022-10-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,0,1,0,0.619,0.6232093133438419,10.817747945463005
+education,2022-10-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,0,0,0,0.6639999999999999,0.6708998641694558,10.694623680664847
+arts_media,2022-10-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,0,1,0,0.637,0.6413781505255762,10.834849638989391
+healthcare_practitioners,2022-10-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,0,0,0,0.6819999999999999,0.6886838520606451,10.777582888833729
+healthcare_support,2022-10-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,0,0,0,0.6639999999999999,0.6675350252792445,10.770776826794542
+protective_service,2022-10-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,0,0,0,0.6729999999999999,0.6268430193217472,10.72019061808548
+food_prep,2022-10-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,0,0,0,0.655,0.6453962274831929,10.693144156834911
+building_grounds,2022-10-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,0,0,0,0.6459999999999999,0.6453055419832653,10.665084437485348
+personal_care,2022-10-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,0,0,0,0.6729999999999999,0.674326149213585,10.734206653103916
+sales,2022-10-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,0,1,0,0.6279999999999999,0.6324931120147157,10.730728845469045
+office_admin,2022-10-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),0,1,0,0.601,0.5851416235327124,10.854590642058238
+farming,2022-10-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,0,0,0,0.6639999999999999,0.6634526873228201,10.732196358239829
+construction,2022-10-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,0,0,0,0.655,0.6699891561899662,10.705000721427686
+installation,2022-10-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,0,0,0,0.6639999999999999,0.6504816729267888,10.838305459453624
+production,2022-10-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,0,0,0,0.619,0.6161696332350218,10.703333362601729
+transportation,2022-10-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,0,0,0,0.6279999999999999,0.6744814519237329,10.741188990154502
+management,2022-11-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6428584303534121,10.78788710493145
+business_financial,2022-11-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6049081697685601,10.709775428150888
+computer_math,2022-11-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6546356246951629,10.840357714288281
+architecture_engineering,2022-11-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6785924286897164,10.881254040157545
+life_physical_social,2022-11-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6534141690609407,10.772577132114256
+community_social,2022-11-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6587678306191541,10.854124319270378
+legal,2022-11-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6122477255112914,10.77354876631247
+education,2022-11-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6773590752150668,10.787388581522137
+arts_media,2022-11-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6404833554643807,10.787424707947324
+healthcare_practitioners,2022-11-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.7023045151421519,10.723755566986146
+healthcare_support,2022-11-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6241955781055053,10.705626258585317
+protective_service,2022-11-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.67985077673081,10.76451093072308
+food_prep,2022-11-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6630594883072981,10.801552329339211
+building_grounds,2022-11-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6898592223650566,10.799420437030022
+personal_care,2022-11-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6751592330119269,10.805457668886673
+sales,2022-11-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.5979146715206526,10.694146343448214
+office_admin,2022-11-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5825994669096075,10.751362727501357
+farming,2022-11-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6659153337817405,10.79842197340564
+construction,2022-11-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6358953642281231,10.69077348542068
+installation,2022-11-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6286908163827654,10.726506791560427
+production,2022-11-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.652027007055343,10.77818812067183
+transportation,2022-11-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6417746737766999,10.68466221457542
+management,2022-12-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6412862091854004,10.879308266492249
+business_financial,2022-12-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6279928928302377,10.88090031174354
+computer_math,2022-12-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.66571355351146,10.898174882478516
+architecture_engineering,2022-12-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6757370151184655,10.79927930112567
+life_physical_social,2022-12-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6808018978274245,10.754424099713326
+community_social,2022-12-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6804962075582068,10.737095517256702
+legal,2022-12-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.575199362383904,10.807376981783545
+education,2022-12-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6570925307473213,10.815641461690149
+arts_media,2022-12-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6620964741404471,10.867018581358142
+healthcare_practitioners,2022-12-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6533960399327998,10.730199264433683
+healthcare_support,2022-12-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6797739923893864,10.7213086202775
+protective_service,2022-12-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6661165079892336,10.820894354140345
+food_prep,2022-12-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6134598624043496,10.736858151657295
+building_grounds,2022-12-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6500361037761356,10.72736934376171
+personal_care,2022-12-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.7005943618097759,10.782926417234274
+sales,2022-12-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6117957498166607,10.730265103927863
+office_admin,2022-12-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6091784511583191,10.776570888357387
+farming,2022-12-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6377515290557433,10.801695015364631
+construction,2022-12-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6760698764342881,10.668895109536514
+installation,2022-12-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6280508590364569,10.700244229035556
+production,2022-12-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6304660666863198,10.860442943647776
+transportation,2022-12-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6215489588658556,10.677976339050018
+management,2023-01-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6560513140436557,10.827530946010588
+business_financial,2023-01-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.5885876591774903,10.728127887141857
+computer_math,2023-01-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.661201699406303,10.786941073986592
+architecture_engineering,2023-01-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6570506158478707,10.73076847533823
+life_physical_social,2023-01-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6559286472889354,10.818400159597042
+community_social,2023-01-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.679443666919595,10.746598316744048
+legal,2023-01-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.608193838785186,10.77804651908551
+education,2023-01-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6671254505210589,10.77154964781571
+arts_media,2023-01-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.623184212800081,10.698620703357221
+healthcare_practitioners,2023-01-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6900265823510836,10.795479696847389
+healthcare_support,2023-01-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.654441034851704,10.70401858444338
+protective_service,2023-01-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6687843026468928,10.747438609158703
+food_prep,2023-01-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6486583887031032,10.824291069665188
+building_grounds,2023-01-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.5971176945901767,10.72012645212446
+personal_care,2023-01-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6694273087624372,10.768513250575152
+sales,2023-01-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.5917795821715891,10.701853033326048
+office_admin,2023-01-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5976519830838646,10.739374042800716
+farming,2023-01-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6769823904889116,10.806960361951159
+construction,2023-01-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6684699785245176,10.669199634413166
+installation,2023-01-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6854524769506072,10.774136917078371
+production,2023-01-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6449923614203741,10.71907141396422
+transportation,2023-01-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6401462871659753,10.724468548908632
+management,2023-02-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6283518921528903,10.825109589775805
+business_financial,2023-02-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6302285489021671,10.761140076969635
+computer_math,2023-02-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6714749800886776,10.869033397147312
+architecture_engineering,2023-02-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6534723917999133,10.85148896296852
+life_physical_social,2023-02-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6741298252879461,10.74575816545239
+community_social,2023-02-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6885102751267573,10.779191495830649
+legal,2023-02-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6201133015986842,10.757885239859009
+education,2023-02-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6476400352944965,10.757884329708043
+arts_media,2023-02-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6066018397238648,10.751318419125747
+healthcare_practitioners,2023-02-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.708741528726768,10.722562718217029
+healthcare_support,2023-02-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6744324405761853,10.765420885719067
+protective_service,2023-02-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6703981460558381,10.726379530585922
+food_prep,2023-02-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6714877871730003,10.767543773897678
+building_grounds,2023-02-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6421755818532774,10.745403124240976
+personal_care,2023-02-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6691682383144022,10.803220105848185
+sales,2023-02-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6445625425198687,10.790480065366111
+office_admin,2023-02-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5843196713503749,10.760662076414311
+farming,2023-02-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.672668784501616,10.808654090772709
+construction,2023-02-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6540110486941527,10.791057307353851
+installation,2023-02-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6285175753959183,10.75342699753869
+production,2023-02-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6091819113684316,10.793329901524631
+transportation,2023-02-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.63114675294657685,10.890703750245613
+management,2023-03-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6492492897979325,10.773491314695876
+business_financial,2023-03-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.64603925936459206,10.714599707700309
+computer_math,2023-03-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.632909057081772,10.775996481111862
+architecture_engineering,2023-03-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6359480078657685,10.828707952204578
+life_physical_social,2023-03-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6560648305217525,10.739153280541771
+community_social,2023-03-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.635654471513793,10.71699104960071
+legal,2023-03-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6100708162304399,10.80882005902529
+education,2023-03-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6870724892459963,10.829784201649616
+arts_media,2023-03-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6374666717641576,10.724190566509854
+healthcare_practitioners,2023-03-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6579394234808316,10.771824146168324
+healthcare_support,2023-03-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6642857132963735,10.708607898629694
+protective_service,2023-03-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.686741687076088,10.767056062740405
+food_prep,2023-03-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.67285517445172,10.743149287872386
+building_grounds,2023-03-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6545681702269541,10.710587977191384
+personal_care,2023-03-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6728449624785885,10.635502838025486
+sales,2023-03-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6380122690467084,10.722434526654727
+office_admin,2023-03-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6070044621375456,10.754165684631484
+farming,2023-03-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6609636138099199,10.73244582345284
+construction,2023-03-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6559498546938598,10.750704747836078
+installation,2023-03-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.658995331187381,10.770221427395306
+production,2023-03-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.5990559575979528,10.759003335982204
+transportation,2023-03-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6260733666638475,10.748780804731563
+management,2023-04-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.666072531778618,10.715510508599296
+business_financial,2023-04-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.628695987589917,10.809926499196415
+computer_math,2023-04-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6614044284552106,10.814547882910533
+architecture_engineering,2023-04-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6264421704547596,10.814083219786356
+life_physical_social,2023-04-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6377077877438325,10.661268122450107
+community_social,2023-04-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6834458361399768,10.695329815860106
+legal,2023-04-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6703717290809751,10.809956033382118
+education,2023-04-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6538016505644426,10.70350082583945
+arts_media,2023-04-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6356385837114648,10.763204110746813
+healthcare_practitioners,2023-04-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6710555725505961,10.820365042715212
+healthcare_support,2023-04-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6949640434579227,10.824052965760368
+protective_service,2023-04-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6442208320340453,10.789407162657506
+food_prep,2023-04-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6075612004790362,10.684387238288393
+building_grounds,2023-04-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6326684199803472,10.719050727046673
+personal_care,2023-04-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6892989023601966,10.729780867147632
+sales,2023-04-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6406950652572234,10.693715821964716
+office_admin,2023-04-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6122809331379531,10.690453369616115
+farming,2023-04-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6651371185793574,10.781407216949281
+construction,2023-04-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6524047711208365,10.667211284725882
+installation,2023-04-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.637772737106226,10.70060579147949
+production,2023-04-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6169106206766218,10.770728571985433
+transportation,2023-04-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6407548493482021,10.763163880540574
+management,2023-05-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6282941734364031,10.752453525496604
+business_financial,2023-05-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6457639622993835,10.789801714828103
+computer_math,2023-05-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6779121963470961,10.780355153986575
+architecture_engineering,2023-05-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6447215172463429,10.744922338380393
+life_physical_social,2023-05-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6599763883062374,10.727603681629331
+community_social,2023-05-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6545819619806426,10.801058112613292
+legal,2023-05-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6180401826108839,10.752086533286155
+education,2023-05-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6622596185902069,10.774984388865917
+arts_media,2023-05-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6410932722837589,10.765205141629655
+healthcare_practitioners,2023-05-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6815473099852344,10.802994186174944
+healthcare_support,2023-05-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6646460432025342,10.732839731182363
+protective_service,2023-05-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6684941263127366,10.808997629866623
+food_prep,2023-05-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.683619998007752,10.766829445354809
+building_grounds,2023-05-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6307222404924201,10.702217063846597
+personal_care,2023-05-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6796562382765728,10.835789774853634
+sales,2023-05-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.633971816335148,10.75645874868637
+office_admin,2023-05-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.559934270519333,10.734091920000518
+farming,2023-05-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6755997301835045,10.705469033131385
+construction,2023-05-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6406977765214067,10.7453859309154
+installation,2023-05-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6637387562277239,10.774930400790938
+production,2023-05-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6347730921442368,10.702774343377557
+transportation,2023-05-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6422431190670578,10.749768024695738
+management,2023-06-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6353716537971346,10.792617593959339
+business_financial,2023-06-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6154981566241204,10.723840741820883
+computer_math,2023-06-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6207521250352813,10.803225885126466
+architecture_engineering,2023-06-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6472969641167892,10.750062112053328
+life_physical_social,2023-06-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6428501965607104,10.804843102790759
+community_social,2023-06-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6717322784294399,10.756104892658314
+legal,2023-06-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.5981733716368475,10.796206833350011
+education,2023-06-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6268656043026956,10.76359893582085
+arts_media,2023-06-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6616931468283754,10.76914588326942
+healthcare_practitioners,2023-06-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6738434146521934,10.847732067919708
+healthcare_support,2023-06-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6243681159182439,10.687303275478934
+protective_service,2023-06-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.7101884769043062,10.866523822131832
+food_prep,2023-06-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6803840714848407,10.725925135080841
+building_grounds,2023-06-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.647510947761167,10.672147168277776
+personal_care,2023-06-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6879604473124853,10.764953901428672
+sales,2023-06-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6489835462562982,10.826627652612705
+office_admin,2023-06-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6018722203583591,10.737366327826726
+farming,2023-06-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.659155876231791,10.706168325867676
+construction,2023-06-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6615754818731074,10.657883045956005
+installation,2023-06-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6477525417299319,10.718314753233576
+production,2023-06-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.5986202046175967,10.733063565902224
+transportation,2023-06-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6354621621301157,10.7601211610814
+management,2023-07-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6358319177109503,10.665276544435018
+business_financial,2023-07-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6223696115250273,10.68900515974722
+computer_math,2023-07-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6891876973566203,10.853921154725592
+architecture_engineering,2023-07-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6575246671771106,10.952161350918745
+life_physical_social,2023-07-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6700004227488677,10.733186899015454
+community_social,2023-07-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6839754809585864,10.780906272836464
+legal,2023-07-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6228973352675895,10.683811768416831
+education,2023-07-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6706170196879461,10.859262093043885
+arts_media,2023-07-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6317182256473791,10.790028514103446
+healthcare_practitioners,2023-07-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.7194230929105634,10.839307868645948
+healthcare_support,2023-07-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.66218589515598,10.82845975604516
+protective_service,2023-07-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6667665053035289,10.715844074537552
+food_prep,2023-07-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6455197598454647,10.715220987805843
+building_grounds,2023-07-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6466385360248148,10.71815823775718
+personal_care,2023-07-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6649867267748854,10.763705186847378
+sales,2023-07-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6636723849941674,10.664626565594983
+office_admin,2023-07-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6057469231102959,10.780838296548497
+farming,2023-07-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.687242443652885,10.705702841854144
+construction,2023-07-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6112278621869764,10.744154838398023
+installation,2023-07-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6551340043759429,10.824544864067626
+production,2023-07-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6189279822574225,10.755399512371428
+transportation,2023-07-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6053541187648241,10.780940834659264
+management,2023-08-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6206351535446584,10.859650025210156
+business_financial,2023-08-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6204354602334773,10.752324616968238
+computer_math,2023-08-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6393718792396331,10.867830648793088
+architecture_engineering,2023-08-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6821708280477867,10.845307362823213
+life_physical_social,2023-08-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6504161602244205,10.672276857555325
+community_social,2023-08-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6743093036412102,10.78384213555718
+legal,2023-08-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.5904744813807478,10.783786474973256
+education,2023-08-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6382093603936325,10.76860886251856
+arts_media,2023-08-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6648093876355252,10.724672797399128
+healthcare_practitioners,2023-08-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6843432390735679,10.781357529295239
+healthcare_support,2023-08-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.652790858704307,10.669264964007917
+protective_service,2023-08-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.653261578481655,10.743990910547524
+food_prep,2023-08-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6723773220454762,10.782536805407828
+building_grounds,2023-08-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6752212389819071,10.742022922589165
+personal_care,2023-08-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.716833779678703,10.6002411290047
+sales,2023-08-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6721206158093946,10.720263399472781
+office_admin,2023-08-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5905143027824408,10.83201046539044
+farming,2023-08-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6746438875361632,10.718537701122859
+construction,2023-08-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6744583700065268,10.820249314610244
+installation,2023-08-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.678436682596528,10.72161356951408
+production,2023-08-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.5816718260362811,10.775195383096662
+transportation,2023-08-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6470782894238222,10.751632874797485
+management,2023-09-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6464737822711191,10.772301554455911
+business_financial,2023-09-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6422454259072433,10.868560967973112
+computer_math,2023-09-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6766251002930423,10.806294548787607
+architecture_engineering,2023-09-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6389723452468994,10.651689099199368
+life_physical_social,2023-09-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6588427566448072,10.75131538631976
+community_social,2023-09-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6525445643903284,10.720213725883651
+legal,2023-09-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6111595797034872,10.766617766681874
+education,2023-09-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6955170312437796,10.748168176190939
+arts_media,2023-09-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.650049937880118,10.72798878126899
+healthcare_practitioners,2023-09-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6895888877901108,10.623932578626853
+healthcare_support,2023-09-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6659832384187326,10.798920361730968
+protective_service,2023-09-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6916194999271653,10.810689526182255
+food_prep,2023-09-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6433369223710743,10.744591717516471
+building_grounds,2023-09-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6395004344534517,10.690563435226645
+personal_care,2023-09-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6632789491059691,10.823564500275868
+sales,2023-09-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6376934119511833,10.755395985046624
+office_admin,2023-09-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5919459208351596,10.751116009526777
+farming,2023-09-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6655218162768223,10.856642076328583
+construction,2023-09-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.662714680250058,10.66975955708693
+installation,2023-09-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6653986762747133,10.753151713915221
+production,2023-09-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.611601942834867,10.762434916359284
+transportation,2023-09-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6045319541393,10.804578955728164
+management,2023-10-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6648816054943841,10.663122603825766
+business_financial,2023-10-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6209404114088339,10.830399560377419
+computer_math,2023-10-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6888943112451558,10.811409662171751
+architecture_engineering,2023-10-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6669619576147001,10.73452750770672
+life_physical_social,2023-10-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6376961429284891,10.780358270381123
+community_social,2023-10-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.7112786650682856,10.76747574505446
+legal,2023-10-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6127620296614925,10.837366244994325
+education,2023-10-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6613383502593717,10.836940288253174
+arts_media,2023-10-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6336064873515053,10.798027673585
+healthcare_practitioners,2023-10-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6501874516539755,10.780015186192536
+healthcare_support,2023-10-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6536686233222537,10.645074262417191
+protective_service,2023-10-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6879719549341845,10.728971768147158
+food_prep,2023-10-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6793551079812761,10.714644952157759
+building_grounds,2023-10-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6742878366586582,10.756416508272519
+personal_care,2023-10-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6786295812171735,10.741809206797221
+sales,2023-10-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6069836365634168,10.764691242003257
+office_admin,2023-10-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.59946011267281,10.693512413924221
+farming,2023-10-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6757353881855531,10.70800483346053
+construction,2023-10-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6410043938345904,10.709913754640253
+installation,2023-10-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6851856042405838,10.809109648839069
+production,2023-10-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6151688206350173,10.764354299683752
+transportation,2023-10-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6391687468830145,10.797809614020824
+management,2023-11-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6556568966538007,10.896668407819567
+business_financial,2023-11-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.623732610847871,10.74467819249097
+computer_math,2023-11-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6839545167808107,10.763888003070889
+architecture_engineering,2023-11-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6954149252105065,10.762837552619132
+life_physical_social,2023-11-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6850745305427149,10.821003215593668
+community_social,2023-11-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.653558352552696,10.81068617364502
+legal,2023-11-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.5991520605512954,10.841866003269178
+education,2023-11-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6845466718307364,10.772814726588434
+arts_media,2023-11-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6061808466935733,10.729706486631958
+healthcare_practitioners,2023-11-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6596755277826888,10.854342176346506
+healthcare_support,2023-11-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6431187630357821,10.766013979548282
+protective_service,2023-11-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6645608785500677,10.768650216773201
+food_prep,2023-11-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6660934871233214,10.714856700602219
+building_grounds,2023-11-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6269076259646902,10.660008321728384
+personal_care,2023-11-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6850697345610987,10.763926205443536
+sales,2023-11-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6343775208326937,10.775836399120067
+office_admin,2023-11-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6154954515808099,10.800523835868995
+farming,2023-11-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6743478952750991,10.687395097304348
+construction,2023-11-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6235212697906176,10.777627757620651
+installation,2023-11-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6745565019551609,10.717283254788725
+production,2023-11-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6036496597797735,10.73897709554008
+transportation,2023-11-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.5923781507778861,10.777612029998236
+management,2023-12-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6264906501366821,10.71630714952775
+business_financial,2023-12-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6185781810779015,10.830602571220496
+computer_math,2023-12-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6481922397943063,10.863041690811354
+architecture_engineering,2023-12-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.5946626405104858,10.83039791869492
+life_physical_social,2023-12-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6501183550699442,10.847440369304936
+community_social,2023-12-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.7171922956954376,10.88253237643811
+legal,2023-12-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6256406886657081,10.81732776100701
+education,2023-12-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6553575039980698,10.810886799546507
+arts_media,2023-12-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6720362626392741,10.77036780574997
+healthcare_practitioners,2023-12-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6997572141882148,10.757877029696397
+healthcare_support,2023-12-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6660714683252035,10.745413546871985
+protective_service,2023-12-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6522230642363389,10.82173850931598
+food_prep,2023-12-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6372517295504536,10.756405763355284
+building_grounds,2023-12-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6721329251752308,10.692989445178716
+personal_care,2023-12-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6682905698400675,10.76728014393951
+sales,2023-12-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.5924047012573046,10.754647124930445
+office_admin,2023-12-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6035792873567611,10.774101969837178
+farming,2023-12-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6913159185344527,10.726169674365549
+construction,2023-12-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6417784676422074,10.694307751486555
+installation,2023-12-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6560505322944794,10.806261878981468
+production,2023-12-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.5818734891316081,10.81638487853918
+transportation,2023-12-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.587603447777232,10.809124853191634
+management,2024-01-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6453041886330713,10.736732763658004
+business_financial,2024-01-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.651927718109754,10.836022536290315
+computer_math,2024-01-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6958634742335351,10.815213987639048
+architecture_engineering,2024-01-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6238970391312528,10.747130613329732
+life_physical_social,2024-01-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6799407526568795,10.752995672601628
+community_social,2024-01-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6666242721776164,10.805824885981576
+legal,2024-01-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6147250720466327,10.70893642434246
+education,2024-01-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.695494891325055,10.740865614422106
+arts_media,2024-01-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6488727289012497,10.863115468425196
+healthcare_practitioners,2024-01-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6644935707445936,10.773280961345543
+healthcare_support,2024-01-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6734145523459055,10.783432738896014
+protective_service,2024-01-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.676589747779249,10.724355403964571
+food_prep,2024-01-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6368773357054371,10.683901996636145
+building_grounds,2024-01-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6587057747867497,10.739446506961707
+personal_care,2024-01-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6667521367040629,10.75844566533741
+sales,2024-01-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.5847757430252868,10.714786298420444
+office_admin,2024-01-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.584414333109087,10.721738700110292
+farming,2024-01-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6640872628308917,10.803197558780084
+construction,2024-01-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6674282193685555,10.703057105393894
+installation,2024-01-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6711519245267588,10.767653844502084
+production,2024-01-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6160764208263022,10.775582568481584
+transportation,2024-01-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6420977408890084,10.700468711755082
+management,2024-02-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6383799278526319,10.763482515016555
+business_financial,2024-02-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6320208158074327,10.785003448561525
+computer_math,2024-02-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6488487394954803,10.838167810212815
+architecture_engineering,2024-02-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.5965220623791693,10.783444047150283
+life_physical_social,2024-02-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6893086343382839,10.783718578938561
+community_social,2024-02-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6872140535972514,10.764026616114348
+legal,2024-02-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6188972552001111,10.821118093194537
+education,2024-02-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6725729206846385,10.744800043683325
+arts_media,2024-02-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6400399001157253,10.777718072732295
+healthcare_practitioners,2024-02-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6875002623899731,10.794352387937046
+healthcare_support,2024-02-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.7038220851591094,10.742991298304869
+protective_service,2024-02-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.685059344616157,10.803182490054668
+food_prep,2024-02-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6311908879476483,10.730493261470556
+building_grounds,2024-02-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6346933154765005,10.625959347243258
+personal_care,2024-02-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6961250865670786,10.66926776533414
+sales,2024-02-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6298035977346218,10.753058226976314
+office_admin,2024-02-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5996727212317011,10.711225086942061
+farming,2024-02-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6703562705187016,10.775305311754485
+construction,2024-02-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6565703978772114,10.755671391878407
+installation,2024-02-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.656213975879294,10.71870491203493
+production,2024-02-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6181520202097013,10.741568097796348
+transportation,2024-02-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6163958834037327,10.803382323838811
+management,2024-03-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6510504885212283,10.708328068859345
+business_financial,2024-03-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6296042009663498,10.767783391837025
+computer_math,2024-03-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6294955911790862,10.827392532442747
+architecture_engineering,2024-03-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.66675276485197,10.769494010148252
+life_physical_social,2024-03-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6388378845505968,10.758259337238579
+community_social,2024-03-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6668790700599724,10.703125070893243
+legal,2024-03-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.639252612112805,10.731322621618755
+education,2024-03-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6521135738023147,10.83711782438884
+arts_media,2024-03-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6696738445894244,10.756073085941619
+healthcare_practitioners,2024-03-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6588838705744978,10.904265303391293
+healthcare_support,2024-03-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6754487530039763,10.717273941276623
+protective_service,2024-03-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.7045018254004485,10.686203797581234
+food_prep,2024-03-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6690214605639551,10.706086080395464
+building_grounds,2024-03-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.673674158516964,10.750568987462374
+personal_care,2024-03-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6711153120643231,10.751637394828128
+sales,2024-03-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.624816795585875,10.774647135484464
+office_admin,2024-03-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6110067073709535,10.75763729275059
+farming,2024-03-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6836153229973292,10.654602589974163
+construction,2024-03-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6539739218135561,10.757973629956155
+installation,2024-03-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6744822991479692,10.7451532749943
+production,2024-03-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6480753755230025,10.729234715422516
+transportation,2024-03-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6329391210906279,10.791664724834071
+management,2024-04-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6580572740099939,10.765775801402459
+business_financial,2024-04-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.5948478317120448,10.78636769910534
+computer_math,2024-04-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6798504394309737,10.822810916039277
+architecture_engineering,2024-04-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.65775654412282,10.837828338792741
+life_physical_social,2024-04-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6369766973805986,10.692907241776496
+community_social,2024-04-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.678052646440088,10.727916636138715
+legal,2024-04-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6245480053202263,10.82264960989662
+education,2024-04-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.679391340868486,10.724885956307054
+arts_media,2024-04-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6431331330451792,10.860027196655402
+healthcare_practitioners,2024-04-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6999455936057212,10.857587986017245
+healthcare_support,2024-04-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6778807657627792,10.87778473657551
+protective_service,2024-04-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6873969234302405,10.755094730043055
+food_prep,2024-04-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6629884614776254,10.804705281553925
+building_grounds,2024-04-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6406007751234097,10.82480536812565
+personal_care,2024-04-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.7150595027755093,10.776268890591703
+sales,2024-04-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6526170308240101,10.778819004843134
+office_admin,2024-04-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5766171698302488,10.736946195966771
+farming,2024-04-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6500780873032848,10.760623650745462
+construction,2024-04-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6671056233752024,10.652727633037463
+installation,2024-04-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6968625875574841,10.657683977176314
+production,2024-04-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6393826715768859,10.761602799526916
+transportation,2024-04-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.691597217998275,10.759761700081334
+management,2024-05-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6366956255794436,10.822686929071114
+business_financial,2024-05-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.5912655371101867,10.779726302391785
+computer_math,2024-05-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6546350787975787,10.805312725680283
+architecture_engineering,2024-05-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.670052113145726,10.689471453832823
+life_physical_social,2024-05-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6719726564412206,10.783758740509183
+community_social,2024-05-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.7078158370809319,10.623652268412556
+legal,2024-05-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6015340581612256,10.793638048679835
+education,2024-05-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6461251689922579,10.779623326507751
+arts_media,2024-05-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6476895375524936,10.715747716672979
+healthcare_practitioners,2024-05-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6836473810401892,10.85147483997805
+healthcare_support,2024-05-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6987901861989803,10.780856984913198
+protective_service,2024-05-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6752532394664822,10.78880930325052
+food_prep,2024-05-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.667899691359857,10.752544545392979
+building_grounds,2024-05-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6843635101260603,10.726789503079633
+personal_care,2024-05-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6945688517451205,10.749302263783724
+sales,2024-05-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6518348183901691,10.813495780159109
+office_admin,2024-05-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6186257532240639,10.687916064901119
+farming,2024-05-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6418010177563702,10.703562899621971
+construction,2024-05-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6813819881354627,10.680867356014202
+installation,2024-05-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6462079201181695,10.815965202075745
+production,2024-05-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6151629168404795,10.772439110368378
+transportation,2024-05-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6362533639095173,10.690567015493116
+management,2024-06-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6179053986678325,10.721349233777158
+business_financial,2024-06-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6294089914858618,10.783141556918782
+computer_math,2024-06-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6326533598022392,10.733306839842626
+architecture_engineering,2024-06-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6367305063647346,10.853288136926874
+life_physical_social,2024-06-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6598819848514934,10.725366801903547
+community_social,2024-06-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6549767588464973,10.56877674044322
+legal,2024-06-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6001093139480727,10.825505841053007
+education,2024-06-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6288027073869454,10.81145177777783
+arts_media,2024-06-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6448005449694385,10.759201522067112
+healthcare_practitioners,2024-06-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6575461018318286,10.79178484391145
+healthcare_support,2024-06-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.634946382786723,10.77261825196365
+protective_service,2024-06-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6769584079898026,10.758349693510233
+food_prep,2024-06-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6730379136087251,10.793185410228764
+building_grounds,2024-06-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6537706301073529,10.82756854214866
+personal_care,2024-06-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6855565095671762,10.75312067024458
+sales,2024-06-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6659975070589077,10.704566918203419
+office_admin,2024-06-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6196868221942456,10.795891112107231
+farming,2024-06-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6248919365334294,10.799839223315953
+construction,2024-06-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6626574876305396,10.771913968025322
+installation,2024-06-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6256090212964447,10.789993598895139
+production,2024-06-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6310684434508177,10.729260108531774
+transportation,2024-06-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6438675022454887,10.836295235891946
+management,2024-07-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6526732830738674,10.787165152047832
+business_financial,2024-07-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6128551161454228,10.786854824140201
+computer_math,2024-07-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6638237234459691,10.850925079476779
+architecture_engineering,2024-07-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6601822742592947,10.762727497392936
+life_physical_social,2024-07-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6603789023504704,10.770091960401407
+community_social,2024-07-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.7018138853797379,10.822543115935455
+legal,2024-07-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6203316586384566,10.80766383938366
+education,2024-07-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6675497315544912,10.754950061131446
+arts_media,2024-07-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6176155724055585,10.786632955856089
+healthcare_practitioners,2024-07-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.7008513057568733,10.80375170035339
+healthcare_support,2024-07-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.631101561029729,10.671548027671701
+protective_service,2024-07-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6959607142487824,10.734344455633398
+food_prep,2024-07-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6363874255503201,10.723239800254863
+building_grounds,2024-07-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6433445962814167,10.730658757196377
+personal_care,2024-07-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6774339023736545,10.692708386361048
+sales,2024-07-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6442244264913148,10.915910846033498
+office_admin,2024-07-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5975244558792089,10.837141617930595
+farming,2024-07-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6795024232766426,10.752327347910565
+construction,2024-07-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6353763910346263,10.711694392567313
+installation,2024-07-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.7062938053908951,10.721328370340421
+production,2024-07-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6368050587482001,10.714259239798885
+transportation,2024-07-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6470668191549462,10.826300789101493
+management,2024-08-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6638637780464525,10.83226756279008
+business_financial,2024-08-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6308375874245417,10.726615178792153
+computer_math,2024-08-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6716680413695854,10.891732118104128
+architecture_engineering,2024-08-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6691059854421199,10.780564689789589
+life_physical_social,2024-08-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6506101619056974,10.695523398201683
+community_social,2024-08-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6372045428938615,10.845953573111316
+legal,2024-08-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6161129968050802,10.76187125612957
+education,2024-08-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6883749896225345,10.830244253879544
+arts_media,2024-08-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.648774434412497,10.7338302106932
+healthcare_practitioners,2024-08-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6606163979862761,10.75710522396632
+healthcare_support,2024-08-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6544362762244759,10.777465392967105
+protective_service,2024-08-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6658707127292455,10.795980520650563
+food_prep,2024-08-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6559925724988614,10.730017161090492
+building_grounds,2024-08-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6490868999573469,10.720674262152304
+personal_care,2024-08-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.7090498169741426,10.741338034853767
+sales,2024-08-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6478105650415911,10.77686552829591
+office_admin,2024-08-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6190036961861435,10.808503988835113
+farming,2024-08-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6373916675128541,10.7787298424271
+construction,2024-08-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6907762954974872,10.770214599365806
+installation,2024-08-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6645463167785254,10.71394651757957
+production,2024-08-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6136614573752676,10.868305239583197
+transportation,2024-08-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6360804314853522,10.773553930471557
+management,2024-09-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6329536377453716,10.77180149330224
+business_financial,2024-09-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6541316755716333,10.849202340855092
+computer_math,2024-09-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6980577612296605,10.847492305691967
+architecture_engineering,2024-09-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6417887294330561,10.817819864691836
+life_physical_social,2024-09-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6553765934677116,10.791521991639318
+community_social,2024-09-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6912908735559768,10.708081179146093
+legal,2024-09-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6178049230934729,10.787006290574944
+education,2024-09-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.67604133790555,10.710903984220908
+arts_media,2024-09-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6551828258817407,10.70633696629114
+healthcare_practitioners,2024-09-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6649137783378775,10.756006201693559
+healthcare_support,2024-09-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6951322944905746,10.775210932412934
+protective_service,2024-09-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6644176583810781,10.694998312148423
+food_prep,2024-09-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.652362109600865,10.668116532411236
+building_grounds,2024-09-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6518889347800553,10.759727497036831
+personal_care,2024-09-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6868446802830483,10.636916150811425
+sales,2024-09-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6113601002334405,10.787030066231269
+office_admin,2024-09-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6058617600042224,10.802078925949031
+farming,2024-09-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.678716688596494,10.689750914253652
+construction,2024-09-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6600945959000726,10.685380439517322
+installation,2024-09-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6453827154581601,10.844956714611817
+production,2024-09-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6610412658264827,10.794452011456098
+transportation,2024-09-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6470277600118064,10.690072974407942
+management,2024-10-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.61918450346983,10.78406055362533
+business_financial,2024-10-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6220170752684637,10.81068373934778
+computer_math,2024-10-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6707911888873247,10.830271631912996
+architecture_engineering,2024-10-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6550897704065507,10.80756678395587
+life_physical_social,2024-10-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6377554451485734,10.812608349094425
+community_social,2024-10-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6950259822189236,10.735545681808425
+legal,2024-10-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6155395551722499,10.752660910700664
+education,2024-10-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6569377029584811,10.625265536259487
+arts_media,2024-10-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6228510629120332,10.786365852694203
+healthcare_practitioners,2024-10-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6922655875984984,10.862157967784057
+healthcare_support,2024-10-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6614299477670991,10.69470295710457
+protective_service,2024-10-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.7136492931581575,10.721033133724664
+food_prep,2024-10-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.671602517511813,10.708948539664362
+building_grounds,2024-10-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6214412571414483,10.812797466225259
+personal_care,2024-10-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6765223167077039,10.712650150857595
+sales,2024-10-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6365611640573408,10.761826170774754
+office_admin,2024-10-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.5885489035180718,10.794143185804247
+farming,2024-10-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6335272187098332,10.715447280415919
+construction,2024-10-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6541898244251879,10.781527796949398
+installation,2024-10-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6733496857648302,10.731487847372453
+production,2024-10-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.578597075549017,10.863258992752737
+transportation,2024-10-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.612736121728696,10.700207355267903
+management,2024-11-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6453580145989388,10.778687322661401
+business_financial,2024-11-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6433229822682377,10.73642524318114
+computer_math,2024-11-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.7163781061297254,10.873261551933542
+architecture_engineering,2024-11-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6520132783221175,10.712883591627556
+life_physical_social,2024-11-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6423243220009188,10.679193145344158
+community_social,2024-11-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6641488094059603,10.806633310109197
+legal,2024-11-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.590779742046653,10.912467525315218
+education,2024-11-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6219965459188289,10.749157329428522
+arts_media,2024-11-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6879774676432757,10.67940143652432
+healthcare_practitioners,2024-11-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.715511978480773,10.697502405888955
+healthcare_support,2024-11-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6793399985901715,10.756565987526646
+protective_service,2024-11-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.7001943029895087,10.664065508893025
+food_prep,2024-11-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6683537627230706,10.826795677491727
+building_grounds,2024-11-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6533101698372082,10.67877088990182
+personal_care,2024-11-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.7132549060333314,10.727011096991268
+sales,2024-11-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6545761347420016,10.661027113915448
+office_admin,2024-11-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6079189865014123,10.736449576247587
+farming,2024-11-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6456356040665743,10.708153978992957
+construction,2024-11-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6793643791545952,10.770276164615547
+installation,2024-11-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6894564039202197,10.761959423815709
+production,2024-11-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.5908056632527302,10.725985880155235
+transportation,2024-11-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.640896838886088,10.749755435959909
+management,2024-12-01,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure,1,1,1,0.637,0.6363690819806969,10.7788613901371
+business_financial,2024-12-01,Business and Financial,0.78,0.4,0.6,0.06,IMF 2024 advanced economy exposure,1,1,1,0.6279999999999999,0.6560725012700342,10.793847951265032
+computer_math,2024-12-01,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant,1,1,1,0.655,0.6940388598841583,10.830214255813281
+architecture_engineering,2024-12-01,Architecture and Engineering,0.68,0.3,0.7,0.02,STEM augmentation pattern,1,1,1,0.6459999999999999,0.6672961093454397,10.783098056478979
+life_physical_social,2024-12-01,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation,1,1,1,0.655,0.6591769075264317,10.762368198138416
+community_social,2024-12-01,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier,1,0,0,0.6729999999999999,0.6887848590756902,10.800464857514045
+legal,2024-12-01,Legal,0.8,0.45,0.55,0.01,High LLM task exposure,1,1,1,0.619,0.6121234367150987,10.815713870635784
+education,2024-12-01,Education Training Library,0.45,0.2,0.8,0.06,Partial automation; strong complementarity,1,0,0,0.6639999999999999,0.6616964079705911,10.702914039608267
+arts_media,2024-12-01,Arts Design Entertainment Media,0.6,0.35,0.65,0.02,Generative AI exposure,1,1,1,0.637,0.6570789502599125,10.755263021914036
+healthcare_practitioners,2024-12-01,Healthcare Practitioners,0.4,0.1,0.9,0.06,Low substitution; high complementarity,1,0,0,0.6819999999999999,0.6789112486740928,10.829236769474356
+healthcare_support,2024-12-01,Healthcare Support,0.3,0.2,0.8,0.03,Physical + interpersonal tasks,1,0,0,0.6639999999999999,0.6680597127309376,10.79737240185693
+protective_service,2024-12-01,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier,1,0,0,0.6729999999999999,0.6753281803249434,10.65393407621675
+food_prep,2024-12-01,Food Preparation and Serving,0.2,0.25,0.75,0.07,Low cognitive; some automation,1,0,0,0.655,0.6520823310657068,10.74825327041927
+building_grounds,2024-12-01,Building and Grounds Cleaning,0.18,0.3,0.7,0.03,Physical task barrier,1,0,0,0.6459999999999999,0.6309115735493098,10.674511215649206
+personal_care,2024-12-01,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier,1,0,0,0.6729999999999999,0.6767689512213323,10.796351781993105
+sales,2024-12-01,Sales and Related,0.55,0.4,0.6,0.09,Mixed automation/augmentation,1,1,1,0.6279999999999999,0.6461644453360704,10.805769393192575
+office_admin,2024-12-01,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025),1,1,1,0.601,0.6034675141509286,10.802189270371029
+farming,2024-12-01,Farming Fishing Forestry,0.15,0.2,0.8,0.01,Physical outdoor work,1,0,0,0.6639999999999999,0.6267946152726485,10.812425050021771
+construction,2024-12-01,Construction and Extraction,0.2,0.25,0.75,0.05,Physical task barrier,1,0,0,0.655,0.6626703172130444,10.743481573981585
+installation,2024-12-01,Installation Maintenance Repair,0.25,0.2,0.8,0.04,Skilled manual work,1,0,0,0.6639999999999999,0.6454719847701961,10.747672594112618
+production,2024-12-01,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure,1,0,0,0.619,0.6091821067429509,10.749493377503573
+transportation,2024-12-01,Transportation and Material Moving,0.3,0.4,0.6,0.08,Mixed; logistics automation,1,0,0,0.6279999999999999,0.6394486762059421,10.798111942006285

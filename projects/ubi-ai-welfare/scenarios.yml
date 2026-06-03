@@ -1,0 +1,138 @@
+# UBI, AI, and Social Welfare — Scenario Configuration
+# All assumptions documented with source references in references.bib
+
+metadata:
+  country: United States
+  currency: USD
+  baseline_year: 2023
+  adult_age_min: 18
+
+# Continuous AI job-security shock: 0 = no disruption, 1 = maximum scenario intensity
+ai_job_security_shock:
+  default: 0.5
+  min: 0.0
+  max: 1.0
+
+# Three named baseline AI scenarios (multipliers applied to exposure-based shocks)
+ai_scenarios:
+  historical_innovation:
+    label: "Historical Innovation (Web / Industrial Revolution)"
+    description: >
+      Broad productivity gains with temporary disruption and occupational reallocation.
+      Calibrated to Goldman/IMF mid-range displacement with strong productivity upside.
+    displacement_rate: 0.065        # ~6.5% worker displacement (Goldman Sachs broad adoption)
+    augmentation_rate: 0.50         # Half of exposed jobs complemented (IMF advanced economies)
+    productivity_gain: 0.15         # ~15% labor productivity over decade (Goldman Sachs)
+    wage_volatility_increase: 0.08
+    unemployment_spike: 0.005       # +0.5 pp unemployment during transition
+    ai_job_security_shock: 0.45
+    sources:
+      - imf2024
+      - goldman2023
+      - eloundou2023
+
+  aligned_augmentation:
+    label: "Aligned Augmentation (Complementary AI)"
+    description: >
+      AI augments workers, raises productivity, minimal displacement.
+      Calibrated to near-term empirical evidence and IMF complementarity share.
+    displacement_rate: 0.02         # Low displacement (Budget Lab / early evidence)
+    augmentation_rate: 0.63         # Goldman: 63% augmented
+    productivity_gain: 0.10
+    wage_volatility_increase: 0.03
+    unemployment_spike: 0.001
+    ai_job_security_shock: 0.25
+    sources:
+      - budgetlab2025
+      - imf2024
+      - hbs2025
+
+  misaligned_automation:
+    label: "Misaligned Automation (Substituting AI)"
+    description: >
+      AI automates tasks and displaces workers, raising earnings risk.
+      Calibrated to high-substitution occupation declines in job postings evidence.
+    displacement_rate: 0.12         # Upper-range displacement sensitivity
+    augmentation_rate: 0.20
+    productivity_gain: 0.05         # Gains accrue mainly to capital
+    wage_volatility_increase: 0.18
+    unemployment_spike: 0.015
+    ai_job_security_shock: 0.85
+    sources:
+      - worldbank2025
+      - imf2024
+      - eloundou2023
+
+# UBI benefit grid (monthly per adult)
+ubi_amounts_monthly:
+  - 250
+  - 500
+  - 1000
+  - 1500
+
+# Funding mechanisms
+funding:
+  deficit_financed:
+    label: Deficit-financed
+    tax_rate_flat: 0.0
+    tax_rate_progressive_top: 0.0
+    description: Gross transfer effects only; no offsetting tax
+
+  flat_income_tax:
+    label: Flat income tax
+    tax_rate_flat: 0.08             # Illustrative revenue-neutral rate (varies by UBI level)
+    tax_rate_progressive_top: 0.0
+    description: Uniform tax on market income to partially fund UBI
+
+  progressive_tax:
+    label: Progressive income tax
+    tax_rate_flat: 0.0
+    tax_rate_progressive_top: 0.35  # Top marginal rate on income above threshold
+    progressive_threshold: 100000
+    description: Higher earners pay larger share of UBI cost
+
+# Labor supply responses to UBI (from RCT / quasi-experimental evidence)
+labor_supply:
+  openresearch_1000:
+    participation_pp: -0.039        # -3.9 pp (ORUS revised)
+    hours_per_week: -1.4
+    earned_income_pct: -0.04        # ~4% reduction in earned income
+    source: vivalt2024
+
+  stockton_500:
+    participation_pp: 0.0
+    hours_per_week: 0.0
+    earned_income_pct: 0.0
+    source: stockton2023
+
+  alaska_universal:
+    participation_pp: 0.0
+    hours_per_week: 0.0
+    part_time_pp: 0.018             # +1.8 pp part-time
+    source: jones2022
+
+  default_elasticity:
+    # Scale labor response linearly with UBI amount relative to $1000/month baseline
+    reference_amount_monthly: 1000
+    participation_pp_at_reference: -0.039
+    earned_income_elasticity: -0.04
+
+# Welfare parameters
+welfare:
+  crra_rho: 2.0                     # Standard inequality-averse CRRA
+  poverty_threshold_single: 14580   # 2023 HHS poverty guideline (approx)
+  poverty_threshold_per_additional: 5140
+  min_consumption_floor: 100        # Avoid log/CRRA at zero consumption
+
+# DiD / event-study template (ChatGPT release Nov 2022)
+did_template:
+  treatment_date: "2022-11-01"
+  pre_periods: 4
+  post_periods: 8
+  high_exposure_threshold: 0.5      # Occupation AI exposure above median
+
+# Synthetic control template (Alaska Permanent Fund)
+synthetic_control:
+  treatment_year: 1982
+  outcome: employment_rate
+  donor_pool_states: 49

@@ -1,0 +1,23 @@
+occupation_group,occupation_label,ai_exposure,automation_prone,augmentation_prone,employment_share,source_note
+management,Management,0.72,0.35,0.65,0.06,Eloundou et al. 2023; high cognitive exposure
+business_financial,Business and Financial,0.78,0.40,0.60,0.06,IMF 2024 advanced economy exposure
+computer_math,Computer and Mathematical,0.85,0.25,0.75,0.04,High exposure; augmentation-dominant
+architecture_engineering,Architecture and Engineering,0.68,0.30,0.70,0.02,STEM augmentation pattern
+life_physical_social,Life Physical and Social Science,0.55,0.25,0.75,0.01,Research augmentation
+community_social,Community and Social Service,0.35,0.15,0.85,0.02,Human interaction barrier
+legal,Legal,0.80,0.45,0.55,0.01,High LLM task exposure
+education,Education Training Library,0.45,0.20,0.80,0.06,Partial automation; strong complementarity
+arts_media,Arts Design Entertainment Media,0.60,0.35,0.65,0.02,Generative AI exposure
+healthcare_practitioners,Healthcare Practitioners,0.40,0.10,0.90,0.06,Low substitution; high complementarity
+healthcare_support,Healthcare Support,0.30,0.20,0.80,0.03,Physical + interpersonal tasks
+protective_service,Protective Service,0.25,0.15,0.85,0.02,Physical/security barrier
+food_prep,Food Preparation and Serving,0.20,0.25,0.75,0.07,Low cognitive; some automation
+building_grounds,Building and Grounds Cleaning,0.18,0.30,0.70,0.03,Physical task barrier
+personal_care,Personal Care and Service,0.22,0.15,0.85,0.03,Interpersonal barrier
+sales,Sales and Related,0.55,0.40,0.60,0.09,Mixed automation/augmentation
+office_admin,Office and Administrative Support,0.75,0.55,0.45,0.12,High displacement risk (World Bank 2025)
+farming,Farming Fishing Forestry,0.15,0.20,0.80,0.01,Physical outdoor work
+construction,Construction and Extraction,0.20,0.25,0.75,0.05,Physical task barrier
+installation,Installation Maintenance Repair,0.25,0.20,0.80,0.04,Skilled manual work
+production,Production,0.35,0.45,0.55,0.06,Manufacturing automation exposure
+transportation,Transportation and Material Moving,0.30,0.40,0.60,0.08,Mixed; logistics automation
