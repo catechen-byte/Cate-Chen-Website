@@ -1,0 +1,6 @@
+node_modules
+.next
+projects/ubi-ai-welfare/renv
+projects/ubi-ai-welfare/output
+.git
+Cate-Chen-Website

@@ -45,3 +45,6 @@ projects/**/.venv/
 
 # Vercel
 .vercel
+
+# Nested empty clone — use repo root instead
+Cate-Chen-Website/
