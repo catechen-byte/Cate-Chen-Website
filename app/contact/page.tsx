@@ -17,7 +17,7 @@ export default function ContactPage() {
             in <code>app/contact/page.tsx</code> or set up a form provider later.
           </p>
           <p>
-            <a href="mailto:hello@example.com">catechen@college.harvard.edu</a>
+            <a href="mailto:catechen@college.harvard.edu">catechen@college.harvard.edu</a>
           </p>
           <p>
             You can also find project code in this repository on GitHub once published.
