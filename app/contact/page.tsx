@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Contact",
   description: "Get in touch with Cate Chen.",
 };
-
+ 
 export default function ContactPage() {
   return (
     <>
