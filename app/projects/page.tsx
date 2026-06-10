@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ContentCard } from "@/components/content-card";
 import { PageHeader, PageShell } from "@/components/page-shell";
 import { getAllContent } from "@/lib/content";
-
+ 
 export const metadata: Metadata = {
   title: "Projects",
   description: "Coding and research projects with writeups, demos, and downloadable artifacts.",
