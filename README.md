@@ -8,7 +8,7 @@ Next.js personal site at the repo root. Research and coding projects live under 
 npm install
 npm run dev
 ```
-
+ 
 Open [http://localhost:3000](http://localhost:3000).
 
 ## Structure
