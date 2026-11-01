@@ -10,7 +10,7 @@ type Draft = {
   body: string;
   updated_at: string;
 };
-
+ 
 export default function AdminPage() {
   const [email, setEmail] = useState("");
   const [sessionEmail, setSessionEmail] = useState<string | null>(null);
