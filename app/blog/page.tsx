@@ -14,7 +14,7 @@ export default function BlogPage() {
   return (
     <>
       <PageHeader title="Blog" description="Shorter posts and updates — edited as Markdown in the repo." />
-      <PageShell>
+      <PageShell> 
         <div className="grid gap-6">
           {posts.map((item) => (
             <ContentCard
